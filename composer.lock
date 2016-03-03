@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "95df06b78db3ad1888e6b3a830bfa9e1",
+    "content-hash": "1f83f4fd55f6367800c5e0054896c1ac",
+    "packages": [
+        {
+            "name": "smsapi.com/php-client",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smsapicom/smsapicom-php-client.git",
+                "reference": "71d4db059af7ca48f638c96783aa0661335d8f0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smsapicom/smsapicom-php-client/zipball/71d4db059af7ca48f638c96783aa0661335d8f0e",
+                "reference": "71d4db059af7ca48f638c96783aa0661335d8f0e",
+                "shasum": ""
+            },
+            "require-dev": {
+                "apigen/apigen": "~4.0",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SMSApi\\": "smsapi"
+                },
+                "classmap": [
+                    "smsapi"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Library for communicating with provider",
+            "homepage": "http://smsapi.pl",
+            "keywords": [
+                "mms",
+                "sms",
+                "vms"
+            ],
+            "time": "2015-08-03 06:52:49"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

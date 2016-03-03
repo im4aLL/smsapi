@@ -1,0 +1,5 @@
+{
+    "require": {
+        "smsapi.com/php-client": "^1.6"
+    }
+}
